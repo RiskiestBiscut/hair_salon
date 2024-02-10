@@ -2817,7 +2817,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #749BC2;
+			background-color:#422E3E;
 			color: #c8ece9;
 		}
 
@@ -3351,7 +3351,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #749BC2;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3825,6 +3825,19 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#main2 > header {
+		padding: 12em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background_image.jpeg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background_image.jpeg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background_image.jpeg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background_image.jpeg");
+		background-attachment: fixed;
+		background-position: top 35% center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
 		#main > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
@@ -3975,6 +3988,18 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
+	body.landing #page-wrapper2 {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background_image.jpeg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background_image.jpeg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background_image.jpeg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background_image.jpeg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 0;
+	}
+
 	body.landing #footer {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
@@ -4002,6 +4027,6 @@ input, select, textarea {
 		margin-bottom: 6em;
 	}
 	.imgSize {
-		width: 25%;
+		width: 20%;
 		height: auto;
 	}
