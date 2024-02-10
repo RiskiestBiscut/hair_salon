@@ -2078,15 +2078,15 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #ed4933;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #ed4933;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #ed4933;
 		}
 
 /* Image */
@@ -2360,7 +2360,7 @@ input, select, textarea {
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			text-align: center;
 		}
 
 		table thead {
@@ -2604,7 +2604,7 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #ed4933;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
